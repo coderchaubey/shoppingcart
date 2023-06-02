@@ -1,0 +1,88 @@
+/* Write styles here */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+body{
+    overflow-x: hidden;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    padding: 2vh;
+   
+}
+.MeShop{
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 1.5vw;
+    padding-left: 2vw;
+    
+}
+.Rest{
+    display: flex;
+    gap: 2vw;
+}
+.Rest a{
+    
+    font-style: normal;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+h1{
+    padding-top: 5vh;
+    padding-left: 4vw;
+    font-size: 5vw;
+    font-weight: normal;
+}
+p{
+    padding-top: 5vh;
+    font-size: 1.5vw;
+    padding-left: 4vw;
+    font-weight: normal;
+}
+.buttonsImg{
+    display: flex;
+    padding-top: 3vh;
+    /* border: 2px solid red; */
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    padding-top: 3vw;
+    padding-left: 4vw;
+    align-items: flex-start;
+}
+.login{
+    
+    background-color: #000000;
+    color:#FFFFFF;
+    padding: 10px 45px;
+    cursor: pointer;
+    font-style: normal;
+    
+}
+.signup{
+    
+    background-color: #FFFFFF;
+    color:#000000 ;
+    padding: 10px 45px;
+    cursor: pointer;
+    font-style: normal;
+}
+img{
+    width: 90%;
+    height: auto;
+}
+   
+    
+
+

@@ -1,0 +1,56 @@
+/* Write your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    padding: 2vh;
+   
+}
+.MeShop{
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 1.5vw;
+    padding-left: 2vw;
+    
+}
+.fForm{
+    margin-top: 2vw;
+    
+}
+.fForm input{
+    width: 90%;
+    margin-left: 4vw;
+    margin-top: 2vw;
+    padding: 1%;
+    border-radius: 4px;
+    border: 1px solid #000000;;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fForm button{
+    margin-top: 3vh;
+    margin-left: 4vw;
+    margin-right: 100%;
+    width: 15rem;
+    padding: 12px;
+    padding-left: 3vh;
+    padding-right: 5vh;
+    background-color: black;
+    color: #FFFFFF;
+    cursor: pointer;
+}
